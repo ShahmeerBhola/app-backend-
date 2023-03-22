@@ -12,10 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "react-scripts": "^5.0.1",
     "socket.io": "^4.0.2"
   },
   "devDependencies": {
-    "webpack": "^5.76.3"
   }
 }
