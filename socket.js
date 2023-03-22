@@ -54,6 +54,7 @@ module.exports.getIO = () => {
   if (!IO) {
     throw Error("IO not initilized.");
   } else {
+    console.log({ IO });
     return IO;
   }
 };
