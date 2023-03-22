@@ -2,7 +2,7 @@ const path = require("path");
 const { createServer } = require("http");
 
 const express = require("express");
-const { getIO, initIO } = require("../socket");
+const { getIO, initIO } = require("./socket");
 
 const app = express();
 
@@ -18,5 +18,4 @@ app.get("/api", (req, res) => {
 
 httpServer.listen(port);
 console.log("Server started on ", port);
-app.use('/.netlify/functions/index',app)
 getIO();
